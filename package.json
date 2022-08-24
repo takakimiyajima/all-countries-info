@@ -1,15 +1,17 @@
 {
-  "name": "countries-info",
+  "name": "all-countries-info",
   "version": "0.0.1",
   "author": "Takaki Miyajima",
   "license": "MIT",
   "description": "A npm module that can get all counties information with its flags",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build",
-    "publish": "npm publish",
+    "prepublishOnly": "npm run build",
+    "publish": "npm publish --access=public ./",
     "unpublish": "npm unpublish countries-info@${npm_config_ver}",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +23,7 @@
     "url": "https://github.com/takakimiyajima/countries-info.git"
   },
   "dependencies": {
+    "country-flag-icons": "^1.5.5",
     "typescript": "^4.7.4"
   }
 }
