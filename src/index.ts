@@ -1,5 +1,4 @@
-function hi(name: string) {
-  console.log(`Hello ${name}`)
-}
+import { Country } from './data/countries'
+import { getCountry } from './functions'
 
-export default hi
+export { Country, getCountry }

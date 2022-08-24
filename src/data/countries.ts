@@ -2966,15 +2966,3 @@ export const countries: Record<string, Country> = {
     unicode: "U+1F1FF U+1F1FC",
   },
 }
-
-export const getAlp2ByAlp3 = (alp3: string) => {
-  return Object.values(countries).find((country) => country.alp3 === alp3)?.alp2
-}
-
-export const getAlp2ByCountryCode = (countryCode: string) => {
-  return Object.values(countries).find((country) => country.countryCode === countryCode)?.alp2
-}
-
-export const getAlp2ByNumericCode = (numericCode: string) => {
-  return Object.values(countries).find((country) => country.numericCode === numericCode)?.alp2
-}
