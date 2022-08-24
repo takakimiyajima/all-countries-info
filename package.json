@@ -4,6 +4,7 @@
   "author": "Takaki Miyajima",
   "license": "MIT",
   "description": "A npm module that can get all counties information with its flags",
+  "homepage": "https://takakimiyajima.github.io/all-countries-info",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -11,16 +12,14 @@
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
-    "publish": "npm publish",
-    "unpublish": "npm unpublish all-countries-info@${npm_config_ver}",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/takakimiyajima/countries-info.git"
+    "url": "git+https://github.com/takakimiyajima/all-countries-info.git"
   },
   "bugs": {
-    "url": "https://github.com/takakimiyajima/countries-info.git"
+    "url": "https://github.com/takakimiyajima/all-countries-info.git"
   },
   "dependencies": {
     "typescript": "^4.7.4"
