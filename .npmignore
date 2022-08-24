@@ -1,0 +1,32 @@
+/node_modules
+/src
+tsconfig.json
+
+# git
+.gitignore
+.gitattributes
+
+# Babel
+.babelrc
+
+# Sources aren't needed for npm
+/source
+
+# Exclude scripts from npm
+/runnable
+
+# testing package
+/react-phone-number-input-*.tgz
+
+# Travis CI
+.travis.yml
+
+# test coverage folder
+/coverage/
+/.nyc_output/
+
+# npm errors
+npm-debug.log
+
+# for OS X users
+.DS_Store
