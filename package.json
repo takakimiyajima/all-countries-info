@@ -1,6 +1,6 @@
 {
   "name": "all-countries-info",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Takaki Miyajima",
   "license": "MIT",
   "description": "A npm module that can get all counties information with its flags",
